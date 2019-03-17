@@ -28,7 +28,7 @@ int main() {
     time_t t;
     int r;
 
-    r = opt3001_init("/dev/i2c-1", 0x45);
+    r = opt3001_init("/dev/i2c-1", 0x46);
     if (r != 0) {
         perror("cannot initialize i2c device: ");
         return -1;
